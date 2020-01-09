@@ -193,6 +193,7 @@ public class HttpUtils {
         params.put("envName",ctx.getEnvName());
         params.put("wxCloudApiToken",ctx.getWxCloudApiToken());
         params.put("tcb_sessionToken",ctx.getTcb_sessionToken());
+        params.put("sessionToken",ctx.getSessionToken());
 
 
         String eventId = now+"_"+(""+Math.random()).substring(2,7);
